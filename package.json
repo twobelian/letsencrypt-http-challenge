@@ -1,0 +1,29 @@
+{
+  "name": "letsencrypt-http-challenge",
+  "version": "1.0.0",
+  "description": "Node.js project using express to finish certbot http-01 acme-challenge of Let's Encrypt",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twobelian/letsencrypt-http-challenge.git"
+  },
+  "keywords": [
+    "letsencrypt",
+    "acme-challenge",
+    "http-01",
+    "certbot"
+  ],
+  "author": "Lian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twobelian/letsencrypt-http-challenge/issues"
+  },
+  "homepage": "https://github.com/twobelian/letsencrypt-http-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
